@@ -1,0 +1,56 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff9e6; /* Soft yellow background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  
+  /* Title styling */
+  h1 {
+    color: #ff6f61; /* Warm coral color */
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  /* Button styling */
+  button {
+    padding: 12px 25px;
+    font-size: 1.2rem;
+    background-color: #ffcc00; /* Bright yellow */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  button:hover {
+    background-color: #ff9900; /* Orange shade on hover */
+    transform: scale(1.05);
+  }
+  
+  button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+  }
+  
+  /* Result text styling */
+  #stationResult {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    color: #4caf50; /* Fresh green */
+    font-weight: bold;
+  }
+  
